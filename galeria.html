@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Imagens | Rio de Janeiro</title>
+  <meta name="description" content="Galeria de fotos do estado do Rio de Janeiro: paisagens, flora e fauna.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <a class="marca" href="index.html"><span class="folha" aria-hidden="true">☀</span><span><strong>RIO DE JANEIRO</strong><small>Praias • Cultura • Natureza</small></span></a>
+    <input type="checkbox" id="menu-toggle">
+    <label class="menu-botao" for="menu-toggle" aria-label="Abrir ou fechar o menu">☰</label>
+    <nav class="menu" aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="turismo.html">Turismo</a>
+      <a href="curiosidades.html">Curiosidades</a>
+      <a href="localizacao.html">Localização</a>
+      <a href="galeria.html" class="ativo">Galeria de Imagens</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="pagina-hero galeria-hero">
+      <span>GALERIA</span>
+      <h1>Explore em imagens</h1>
+      <p>Um passeio visual pelas paisagens, pelas florestas e pelos animais do Rio de Janeiro.</p>
+    </section>
+
+    <section class="secao" id="galeria">
+      <h2>Paisagens, praias e natureza</h2>
+      <p class="introducao">Clique em uma foto para ampliá-la. Para fechar, clique no × ou fora da imagem.</p>
+      <div class="galeria-bloco">
+        <h3>Paisagens</h3>
+        <div class="galeria-grade">
+          <figure>
+            <a href="#foto1"><img src="imagens/paisagens/pao-de-acucar-por-do-sol.jpg" alt="Pão de Açúcar ao pôr do sol, com a cidade do Rio de Janeiro iluminada"></a>
+            <figcaption>Pão de Açúcar ao pôr do sol</figcaption>
+          </figure>
+          <figure>
+            <a href="#foto2"><img src="imagens/paisagens/copacabana-vista-do-alto.jpg" alt="Vista aérea da Praia de Copacabana, no Rio de Janeiro, com mar azul, faixa de areia e prédios da orla"></a>
+            <figcaption>Copacabana vista do alto</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="galeria-bloco">
+        <h3>Flora</h3>
+        <div class="galeria-grade">
+          <figure>
+            <a href="#foto3"><img src="imagens/flora/floresta-da-tijuca.jpg" alt="Montanhas cobertas de Mata Atlântica no Parque Nacional da Tijuca, com a cidade ao fundo"></a>
+            <figcaption>Floresta da Tijuca</figcaption>
+          </figure>
+          <figure>
+            <a href="#foto4"><img src="imagens/flora/jardim-botanico.jpg" alt="Aleia de palmeiras-imperiais no Jardim Botânico do Rio de Janeiro"></a>
+            <figcaption>Palmeiras-imperiais do Jardim Botânico</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="galeria-bloco">
+        <h3>Fauna</h3>
+        <div class="galeria-grade">
+          <figure>
+            <a href="#foto5"><img src="imagens/fauna/mico-leao-dourado.jpg" alt="Mico-leão-dourado de pelagem laranja pousado em um galho"></a>
+            <figcaption>Mico-leão-dourado</figcaption>
+          </figure>
+          <figure>
+            <a href="#foto6"><img src="imagens/fauna/tucano.jpg" alt="Tucano-de-bico-preto pousado em um galho na Mata Atlântica do Rio de Janeiro"></a>
+            <figcaption>Tucano-de-bico-preto</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="lightbox" id="foto1" role="dialog" aria-label="Foto ampliada: Pão de Açúcar ao pôr do sol">
+      <a href="#galeria" class="lightbox-fundo" aria-label="Fechar foto"></a>
+      <a href="#galeria" class="fechar" aria-label="Fechar foto">×</a>
+      <img src="imagens/paisagens/pao-de-acucar-por-do-sol.jpg" alt="Pão de Açúcar ao pôr do sol, com a cidade do Rio de Janeiro iluminada">
+    </div>
+
+    <div class="lightbox" id="foto2" role="dialog" aria-label="Foto ampliada: Copacabana vista do alto">
+      <a href="#galeria" class="lightbox-fundo" aria-label="Fechar foto"></a>
+      <a href="#galeria" class="fechar" aria-label="Fechar foto">×</a>
+      <img src="imagens/paisagens/copacabana-vista-do-alto.jpg" alt="Vista aérea da Praia de Copacabana, no Rio de Janeiro, com mar azul, faixa de areia e prédios da orla">
+    </div>
+
+    <div class="lightbox" id="foto3" role="dialog" aria-label="Foto ampliada: Floresta da Tijuca">
+      <a href="#galeria" class="lightbox-fundo" aria-label="Fechar foto"></a>
+      <a href="#galeria" class="fechar" aria-label="Fechar foto">×</a>
+      <img src="imagens/flora/floresta-da-tijuca.jpg" alt="Montanhas cobertas de Mata Atlântica no Parque Nacional da Tijuca, com a cidade ao fundo">
+    </div>
+
+    <div class="lightbox" id="foto4" role="dialog" aria-label="Foto ampliada: Palmeiras-imperiais do Jardim Botânico">
+      <a href="#galeria" class="lightbox-fundo" aria-label="Fechar foto"></a>
+      <a href="#galeria" class="fechar" aria-label="Fechar foto">×</a>
+      <img src="imagens/flora/jardim-botanico.jpg" alt="Aleia de palmeiras-imperiais no Jardim Botânico do Rio de Janeiro">
+    </div>
+
+    <div class="lightbox" id="foto5" role="dialog" aria-label="Foto ampliada: Mico-leão-dourado">
+      <a href="#galeria" class="lightbox-fundo" aria-label="Fechar foto"></a>
+      <a href="#galeria" class="fechar" aria-label="Fechar foto">×</a>
+      <img src="imagens/fauna/mico-leao-dourado.jpg" alt="Mico-leão-dourado de pelagem laranja pousado em um galho">
+    </div>
+
+    <div class="lightbox" id="foto6" role="dialog" aria-label="Foto ampliada: Tucano-de-bico-preto">
+      <a href="#galeria" class="lightbox-fundo" aria-label="Fechar foto"></a>
+      <a href="#galeria" class="fechar" aria-label="Fechar foto">×</a>
+      <img src="imagens/fauna/tucano.jpg" alt="Tucano-de-bico-preto pousado em um galho na Mata Atlântica do Rio de Janeiro">
+    </div>
+
+  </main>
+
+  <footer class="rodape">
+    <a class="marca" href="index.html"><span class="folha" aria-hidden="true">☀</span><span><strong>RIO DE JANEIRO</strong><small>Praias • Cultura • Natureza</small></span></a>
+    <p>O Rio nos encanta.</p>
+    <div class="rodape-links">
+      <a href="index.html">Início</a>
+      <a href="turismo.html">Turismo</a>
+      <a href="curiosidades.html">Curiosidades</a>
+      <a href="localizacao.html">Localização</a>
+    </div>
+    <p class="creditos">Imagens: Pexels. Créditos aos respectivos autores.</p>
+  </footer>
+
+</body>
+</html>

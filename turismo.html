@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo | Rio de Janeiro</title>
+  <meta name="description" content="Destinos turísticos do estado do Rio de Janeiro: capital, Paraty, Arraial do Cabo e Petrópolis.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <a class="marca" href="index.html"><span class="folha" aria-hidden="true">☀</span><span><strong>RIO DE JANEIRO</strong><small>Praias • Cultura • Natureza</small></span></a>
+    <input type="checkbox" id="menu-toggle">
+    <label class="menu-botao" for="menu-toggle" aria-label="Abrir ou fechar o menu">☰</label>
+    <nav class="menu" aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="turismo.html" class="ativo">Turismo</a>
+      <a href="curiosidades.html">Curiosidades</a>
+      <a href="localizacao.html">Localização</a>
+      <a href="galeria.html">Galeria de Imagens</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="pagina-hero turismo-hero">
+      <span>VIVA A EXPERIÊNCIA</span>
+      <h1>Turismo no Rio de Janeiro</h1>
+      <p>Do mar às montanhas, cada região do estado guarda um jeito diferente de se encantar.</p>
+    </section>
+
+    <section class="secao roteiro-secao" id="destinos">
+      <span class="pre-titulo">4 PARADAS PELO ESTADO</span>
+      <h2>Monte seu roteiro</h2>
+      <p class="introducao">Siga a linha do mar à serra. Clique na foto ou no nome de um destino para abrir uma galeria com 5 fotos.</p>
+      <div class="roteiro">
+        <article class="parada">
+          <a class="parada-foto" href="#galeria-rio"><img src="imagens/paisagens/copacabana-por-do-sol.jpg" alt="Praia de Copacabana ao entardecer, com a orla e os prédios iluminados"><span>Ver 5 fotos</span></a>
+          <div class="parada-texto">
+            <span class="parada-num">01</span>
+            <span class="parada-regiao">Capital</span>
+            <h3><a href="#galeria-rio">Rio de Janeiro</a></h3>
+            <span class="parada-apelido">a Cidade Maravilhosa</span>
+            <p>Cristo Redentor, Pão de Açúcar, Copacabana, Ipanema e a Escadaria Selarón: a capital tem cartões-postais para todos os gostos.</p>
+            <a class="botao-contorno" href="#galeria-rio">Ver fotos →</a>
+          </div>
+        </article>
+        <article class="parada">
+          <a class="parada-foto" href="#galeria-paraty"><img src="imagens/paisagens/paraty-centro-historico.jpg" alt="Rua de pedras e casarões coloniais coloridos no centro histórico de Paraty"><span>Ver 5 fotos</span></a>
+          <div class="parada-texto">
+            <span class="parada-num">02</span>
+            <span class="parada-regiao">Costa Verde</span>
+            <h3><a href="#galeria-paraty">Paraty</a></h3>
+            <span class="parada-apelido">história à beira-mar</span>
+            <p>Cidade colonial da Costa Verde, Patrimônio Mundial da UNESCO, com ruas de pedra, casarões e uma baía cheia de ilhas.</p>
+            <a class="botao-contorno" href="#galeria-paraty">Ver fotos →</a>
+          </div>
+        </article>
+        <article class="parada">
+          <a class="parada-foto" href="#galeria-arraial"><img src="imagens/paisagens/arraial-do-cabo-barcos.jpg" alt="Barcos sobre águas azul-turquesa em Arraial do Cabo"><span>Ver 5 fotos</span></a>
+          <div class="parada-texto">
+            <span class="parada-num">03</span>
+            <span class="parada-regiao">Região dos Lagos</span>
+            <h3><a href="#galeria-arraial">Arraial do Cabo</a></h3>
+            <span class="parada-apelido">o Caribe brasileiro</span>
+            <p>Águas transparentes, praias de areia branca e mirantes incríveis na Região dos Lagos.</p>
+            <a class="botao-contorno" href="#galeria-arraial">Ver fotos →</a>
+          </div>
+        </article>
+        <article class="parada">
+          <a class="parada-foto" href="#galeria-petropolis"><img src="imagens/paisagens/petropolis-museu-imperial.jpg" alt="Fachada rosa do Museu Imperial de Petrópolis em dia de sol"><span>Ver 5 fotos</span></a>
+          <div class="parada-texto">
+            <span class="parada-num">04</span>
+            <span class="parada-regiao">Serra</span>
+            <h3><a href="#galeria-petropolis">Petrópolis</a></h3>
+            <span class="parada-apelido">a Cidade Imperial</span>
+            <p>A Cidade Imperial, na serra, com palácios, a catedral gótica e um clima de montanha.</p>
+            <a class="botao-contorno" href="#galeria-petropolis">Ver fotos →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="galeria-modal" id="galeria-rio" role="dialog" aria-label="Galeria de fotos: Rio de Janeiro">
+      <a href="#destinos" class="galeria-fundo" aria-label="Fechar galeria"></a>
+      <div class="galeria-caixa">
+        <div class="galeria-topo">
+          <h3>Rio de Janeiro</h3>
+          <a href="#destinos" class="galeria-fechar" aria-label="Fechar galeria">×</a>
+        </div>
+        <input type="radio" name="g-rio" id="g-rio-1" class="galeria-radio" checked>
+        <input type="radio" name="g-rio" id="g-rio-2" class="galeria-radio">
+        <input type="radio" name="g-rio" id="g-rio-3" class="galeria-radio">
+        <input type="radio" name="g-rio" id="g-rio-4" class="galeria-radio">
+        <input type="radio" name="g-rio" id="g-rio-5" class="galeria-radio">
+        <div class="galeria-slides">
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/40046985/pexels-photo-40046985.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Cristo Redentor de braços abertos sob o céu azul, no alto do Corcovado" loading="lazy">
+            <label for="g-rio-5" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-rio-2" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">1 / 5</span> Cristo Redentor, no alto do Corcovado — <a href="https://www.pexels.com/photo/christ-the-redeemer-statue-in-rio-de-janeiro-40046985/" target="_blank" rel="noopener">Foto: Anderson Alves / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/37022048/pexels-photo-37022048.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Pão de Açúcar erguendo-se sobre a Baía de Guanabara" loading="lazy">
+            <label for="g-rio-1" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-rio-3" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">2 / 5</span> Pão de Açúcar, na Urca — <a href="https://www.pexels.com/photo/sugarloaf-mountain-in-rio-de-janeiro-brazil-37022048/" target="_blank" rel="noopener">Foto: Jonathan Borba / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/31675931/pexels-photo-31675931.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Vista aérea da Praia de Copacabana com o mar e os prédios da orla" loading="lazy">
+            <label for="g-rio-2" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-rio-4" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">3 / 5</span> Praia de Copacabana — <a href="https://www.pexels.com/photo/scenic-view-of-copacabana-beach-rio-de-janeiro-31675931/" target="_blank" rel="noopener">Foto: Vinícius Vieira ft / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/32166303/pexels-photo-32166303.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Praia de Ipanema lotada de guarda-sóis coloridos, com o Morro Dois Irmãos ao fundo" loading="lazy">
+            <label for="g-rio-3" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-rio-5" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">4 / 5</span> Praia de Ipanema e o Morro Dois Irmãos — <a href="https://www.pexels.com/photo/colorful-ipanema-beach-on-a-sunny-day-32166303/" target="_blank" rel="noopener">Foto: Willian Santos / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/16412425/pexels-photo-16412425.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Degraus revestidos de azulejos coloridos da Escadaria Selarón, na Lapa" loading="lazy">
+            <label for="g-rio-4" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-rio-1" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">5 / 5</span> Escadaria Selarón, na Lapa — <a href="https://www.pexels.com/photo/escadaria-selaron-in-rio-de-janeiro-16412425/" target="_blank" rel="noopener">Foto: AXP Photography / Pexels</a></figcaption>
+          </figure>
+        </div>
+        <div class="galeria-miniaturas">
+          <label for="g-rio-1"><img src="https://images.pexels.com/photos/40046985/pexels-photo-40046985.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Cristo Redentor, no alto do Corcovado" loading="lazy"></label>
+          <label for="g-rio-2"><img src="https://images.pexels.com/photos/37022048/pexels-photo-37022048.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Pão de Açúcar, na Urca" loading="lazy"></label>
+          <label for="g-rio-3"><img src="https://images.pexels.com/photos/31675931/pexels-photo-31675931.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Praia de Copacabana" loading="lazy"></label>
+          <label for="g-rio-4"><img src="https://images.pexels.com/photos/32166303/pexels-photo-32166303.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Praia de Ipanema e o Morro Dois Irmãos" loading="lazy"></label>
+          <label for="g-rio-5"><img src="https://images.pexels.com/photos/16412425/pexels-photo-16412425.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Escadaria Selarón, na Lapa" loading="lazy"></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="galeria-modal" id="galeria-paraty" role="dialog" aria-label="Galeria de fotos: Paraty">
+      <a href="#destinos" class="galeria-fundo" aria-label="Fechar galeria"></a>
+      <div class="galeria-caixa">
+        <div class="galeria-topo">
+          <h3>Paraty</h3>
+          <a href="#destinos" class="galeria-fechar" aria-label="Fechar galeria">×</a>
+        </div>
+        <input type="radio" name="g-paraty" id="g-paraty-1" class="galeria-radio" checked>
+        <input type="radio" name="g-paraty" id="g-paraty-2" class="galeria-radio">
+        <input type="radio" name="g-paraty" id="g-paraty-3" class="galeria-radio">
+        <input type="radio" name="g-paraty" id="g-paraty-4" class="galeria-radio">
+        <input type="radio" name="g-paraty" id="g-paraty-5" class="galeria-radio">
+        <div class="galeria-slides">
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/41121597/pexels-photo-41121597.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Rua do centro histórico de Paraty com casarões coloniais coloridos" loading="lazy">
+            <label for="g-paraty-5" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-paraty-2" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">1 / 5</span> Centro histórico de Paraty — <a href="https://www.pexels.com/photo/charming-colonial-street-in-paraty-brazil-41121597/" target="_blank" rel="noopener">Foto: Mário Andrioli / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/5368103/pexels-photo-5368103.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Casarões coloniais brancos de portas coloridas refletidos na rua de pedras molhada de Paraty" loading="lazy">
+            <label for="g-paraty-1" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-paraty-3" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">2 / 5</span> Casarões coloniais refletidos na rua — <a href="https://www.pexels.com/photo/a-building-near-body-of-water-5368103/" target="_blank" rel="noopener">Foto: isabel ph / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/38639159/pexels-photo-38639159.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Rua calçada com pedras irregulares entre casas coloniais em Paraty" loading="lazy">
+            <label for="g-paraty-2" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-paraty-4" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">3 / 5</span> Ruas de pedra “pé de moleque” — <a href="https://www.pexels.com/photo/charming-historical-street-in-paraty-brazil-38639159/" target="_blank" rel="noopener">Foto: Rose Souza / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/8032848/pexels-photo-8032848.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Barcos de passeio coloridos atracados no cais de Paraty, com casarões ao fundo" loading="lazy">
+            <label for="g-paraty-3" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-paraty-5" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">4 / 5</span> Barcos de passeio no cais — <a href="https://www.pexels.com/photo/tourboats-moored-in-bay-8032848/" target="_blank" rel="noopener">Foto: Gilberto Olimpio / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/8571177/pexels-photo-8571177.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Vista aérea da baía de Paraty com ilhas verdes e águas azul-turquesa" loading="lazy">
+            <label for="g-paraty-4" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-paraty-1" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">5 / 5</span> Baía de Paraty e suas ilhas — <a href="https://www.pexels.com/photo/aerial-view-of-a-coast-full-of-islands-8571177/" target="_blank" rel="noopener">Foto: Andre Manuel / Pexels</a></figcaption>
+          </figure>
+        </div>
+        <div class="galeria-miniaturas">
+          <label for="g-paraty-1"><img src="https://images.pexels.com/photos/41121597/pexels-photo-41121597.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Centro histórico de Paraty" loading="lazy"></label>
+          <label for="g-paraty-2"><img src="https://images.pexels.com/photos/5368103/pexels-photo-5368103.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Casarões coloniais refletidos na rua" loading="lazy"></label>
+          <label for="g-paraty-3"><img src="https://images.pexels.com/photos/38639159/pexels-photo-38639159.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Ruas de pedra “pé de moleque”" loading="lazy"></label>
+          <label for="g-paraty-4"><img src="https://images.pexels.com/photos/8032848/pexels-photo-8032848.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Barcos de passeio no cais" loading="lazy"></label>
+          <label for="g-paraty-5"><img src="https://images.pexels.com/photos/8571177/pexels-photo-8571177.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Baía de Paraty e suas ilhas" loading="lazy"></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="galeria-modal" id="galeria-arraial" role="dialog" aria-label="Galeria de fotos: Arraial do Cabo">
+      <a href="#destinos" class="galeria-fundo" aria-label="Fechar galeria"></a>
+      <div class="galeria-caixa">
+        <div class="galeria-topo">
+          <h3>Arraial do Cabo</h3>
+          <a href="#destinos" class="galeria-fechar" aria-label="Fechar galeria">×</a>
+        </div>
+        <input type="radio" name="g-arraial" id="g-arraial-1" class="galeria-radio" checked>
+        <input type="radio" name="g-arraial" id="g-arraial-2" class="galeria-radio">
+        <input type="radio" name="g-arraial" id="g-arraial-3" class="galeria-radio">
+        <input type="radio" name="g-arraial" id="g-arraial-4" class="galeria-radio">
+        <input type="radio" name="g-arraial" id="g-arraial-5" class="galeria-radio">
+        <div class="galeria-slides">
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/13172275/pexels-photo-13172275.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Vista aérea de barcos sobre a água azul-turquesa e transparente de Arraial do Cabo" loading="lazy">
+            <label for="g-arraial-5" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-arraial-2" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">1 / 5</span> Águas claras de Arraial do Cabo — <a href="https://www.pexels.com/photo/aerial-view-of-boats-on-ocean-13172275/" target="_blank" rel="noopener">Foto: Zeca Souza / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/33118596/pexels-photo-33118596.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Praia Grande de Arraial do Cabo com mar verde-azulado e longa faixa de areia" loading="lazy">
+            <label for="g-arraial-1" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-arraial-3" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">2 / 5</span> Praia Grande — <a href="https://www.pexels.com/photo/scenic-view-of-praia-grande-beach-arraial-do-cabo-33118596/" target="_blank" rel="noopener">Foto: Ryan Effects / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/4737024/pexels-photo-4737024.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Mar azul e ilhas vistos do Mirante do Pontal do Atalaia, em Arraial do Cabo" loading="lazy">
+            <label for="g-arraial-2" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-arraial-4" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">3 / 5</span> Mirante do Pontal do Atalaia — <a href="https://www.pexels.com/photo/a-rock-formation-surrounded-by-the-sea-in-arraial-do-cabo-rj-brazil-4737024/" target="_blank" rel="noopener">Foto: Adriano Brodbeck / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/7876780/pexels-photo-7876780.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Barcos flutuando nas águas azul-turquesa de Arraial do Cabo" loading="lazy">
+            <label for="g-arraial-3" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-arraial-5" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">4 / 5</span> Barcos de passeio na enseada — <a href="https://www.pexels.com/photo/boats-on-the-blue-sea-7876780/" target="_blank" rel="noopener">Foto: Oz Ozzy / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/9318378/pexels-photo-9318378.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Tartaruga-marinha nadando no fundo do mar de Arraial do Cabo" loading="lazy">
+            <label for="g-arraial-4" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-arraial-1" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">5 / 5</span> Tartaruga-marinha no mar de Arraial — <a href="https://www.pexels.com/photo/a-sea-turtle-swimming-underwater-9318378/" target="_blank" rel="noopener">Foto: Brunno Rodrigues / Pexels</a></figcaption>
+          </figure>
+        </div>
+        <div class="galeria-miniaturas">
+          <label for="g-arraial-1"><img src="https://images.pexels.com/photos/13172275/pexels-photo-13172275.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Águas claras de Arraial do Cabo" loading="lazy"></label>
+          <label for="g-arraial-2"><img src="https://images.pexels.com/photos/33118596/pexels-photo-33118596.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Praia Grande" loading="lazy"></label>
+          <label for="g-arraial-3"><img src="https://images.pexels.com/photos/4737024/pexels-photo-4737024.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Mirante do Pontal do Atalaia" loading="lazy"></label>
+          <label for="g-arraial-4"><img src="https://images.pexels.com/photos/7876780/pexels-photo-7876780.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Barcos de passeio na enseada" loading="lazy"></label>
+          <label for="g-arraial-5"><img src="https://images.pexels.com/photos/9318378/pexels-photo-9318378.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Tartaruga-marinha no mar de Arraial" loading="lazy"></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="galeria-modal" id="galeria-petropolis" role="dialog" aria-label="Galeria de fotos: Petrópolis">
+      <a href="#destinos" class="galeria-fundo" aria-label="Fechar galeria"></a>
+      <div class="galeria-caixa">
+        <div class="galeria-topo">
+          <h3>Petrópolis</h3>
+          <a href="#destinos" class="galeria-fechar" aria-label="Fechar galeria">×</a>
+        </div>
+        <input type="radio" name="g-petropolis" id="g-petropolis-1" class="galeria-radio" checked>
+        <input type="radio" name="g-petropolis" id="g-petropolis-2" class="galeria-radio">
+        <input type="radio" name="g-petropolis" id="g-petropolis-3" class="galeria-radio">
+        <input type="radio" name="g-petropolis" id="g-petropolis-4" class="galeria-radio">
+        <input type="radio" name="g-petropolis" id="g-petropolis-5" class="galeria-radio">
+        <div class="galeria-slides">
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/35907645/pexels-photo-35907645.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Fachada rosa e branca do Museu Imperial de Petrópolis em dia de sol" loading="lazy">
+            <label for="g-petropolis-5" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-petropolis-2" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">1 / 5</span> Museu Imperial — <a href="https://www.pexels.com/photo/imperial-museum-s-classic-architecture-in-rio-35907645/" target="_blank" rel="noopener">Foto: Luciano Rochadel / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/6292984/pexels-photo-6292984.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Torre e fachada gótica da Catedral de São Pedro de Alcântara, em Petrópolis" loading="lazy">
+            <label for="g-petropolis-1" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-petropolis-3" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">2 / 5</span> Catedral de São Pedro de Alcântara — <a href="https://www.pexels.com/photo/the-cathedral-of-petropolis-in-brazil-6292984/" target="_blank" rel="noopener">Foto: Juliana Crillanovick / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/6610441/pexels-photo-6610441.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Palácio de Cristal de Petrópolis, estrutura de ferro e vidro cercada de jardins" loading="lazy">
+            <label for="g-petropolis-2" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-petropolis-4" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">3 / 5</span> Palácio de Cristal — <a href="https://www.pexels.com/photo/crystal-palace-petropolis-brazil-6610441/" target="_blank" rel="noopener">Foto: @casalfilmsestudio / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/14919255/pexels-photo-14919255.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Picos da Serra dos Órgãos sob o céu azul, na Região Serrana do Rio de Janeiro" loading="lazy">
+            <label for="g-petropolis-3" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-petropolis-5" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">4 / 5</span> Serra dos Órgãos, na Região Serrana — <a href="https://www.pexels.com/photo/organs-range-national-park-in-rio-de-janeiro-brazil-14919255/" target="_blank" rel="noopener">Foto: Allan Carvalho / Pexels</a></figcaption>
+          </figure>
+          <figure class="galeria-slide">
+            <img src="https://images.pexels.com/photos/34331527/pexels-photo-34331527.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Castelo de Itaipava, construção de pedra em estilo gótico, em foto preto e branco" loading="lazy">
+            <label for="g-petropolis-4" class="galeria-anterior" aria-label="Foto anterior">‹</label>
+            <label for="g-petropolis-1" class="galeria-proxima" aria-label="Próxima foto">›</label>
+            <figcaption><span class="galeria-contador">5 / 5</span> Castelo de Itaipava, distrito de Petrópolis — <a href="https://www.pexels.com/photo/majestic-castelo-itaipava-in-black-and-white-34331527/" target="_blank" rel="noopener">Foto: Wallace Silva / Pexels</a></figcaption>
+          </figure>
+        </div>
+        <div class="galeria-miniaturas">
+          <label for="g-petropolis-1"><img src="https://images.pexels.com/photos/35907645/pexels-photo-35907645.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Museu Imperial" loading="lazy"></label>
+          <label for="g-petropolis-2"><img src="https://images.pexels.com/photos/6292984/pexels-photo-6292984.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Catedral de São Pedro de Alcântara" loading="lazy"></label>
+          <label for="g-petropolis-3"><img src="https://images.pexels.com/photos/6610441/pexels-photo-6610441.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Palácio de Cristal" loading="lazy"></label>
+          <label for="g-petropolis-4"><img src="https://images.pexels.com/photos/14919255/pexels-photo-14919255.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Serra dos Órgãos, na Região Serrana" loading="lazy"></label>
+          <label for="g-petropolis-5"><img src="https://images.pexels.com/photos/34331527/pexels-photo-34331527.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Miniatura: Castelo de Itaipava, distrito de Petrópolis" loading="lazy"></label>
+        </div>
+      </div>
+    </div>
+
+    <section class="secao clara">
+      <h2>Experiências responsáveis</h2>
+      <p class="introducao">Pequenas atitudes ajudam a manter o Rio de Janeiro bonito para quem mora e para quem visita.</p>
+      <ul class="dicas">
+        <li><strong>Praia sem lixo:</strong> leve uma sacola, recolha o seu lixo e não deixe bitucas de cigarro na areia.</li>
+        <li><strong>Respeito aos animais:</strong> não alimente micos, aves ou peixes e mantenha distância de tartarugas e golfinhos.</li>
+        <li><strong>Trilhas com guia:</strong> em parques como Tijuca, Serra dos Órgãos e Itatiaia, siga as trilhas sinalizadas e prefira guias credenciados.</li>
+        <li><strong>Valorize o comércio local:</strong> compre de artesãos, pescadores, quiosques e restaurantes da região.</li>
+        <li><strong>Confira fontes oficiais:</strong> antes de viajar, veja horários, regras e avisos nos sites dos parques e das prefeituras.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <a class="marca" href="index.html"><span class="folha" aria-hidden="true">☀</span><span><strong>RIO DE JANEIRO</strong><small>Praias • Cultura • Natureza</small></span></a>
+    <p>O Rio nos encanta.</p>
+    <div class="rodape-links">
+      <a href="index.html">Início</a>
+      <a href="curiosidades.html">Curiosidades</a>
+      <a href="localizacao.html">Localização</a>
+      <a href="galeria.html">Galeria de Imagens</a>
+    </div>
+    <p class="creditos">Imagens: Pexels. Créditos aos respectivos autores.</p>
+  </footer>
+
+</body>
+</html>
